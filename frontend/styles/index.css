@@ -1,0 +1,32 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+#top {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+#top p {
+    padding: 10px;
+    font-size: 18px;
+}
+
+#top>p>a {
+    color: white;
+}
+
+#main-body {
+    border: 1px solid;
+    width: 95%;
+    margin: auto;
+    height: 100%;
+}
+
+nav {
+    height: 100px;
+    border: 1px solid;
+}

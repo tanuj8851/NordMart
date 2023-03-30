@@ -1,0 +1,88 @@
+* {
+    font-family: 'Ibarra Real Nova', serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: white;
+    color: black;
+    border: 1px solid;
+}
+
+.navbar-search {
+    width: 100%;
+    max-width: 600px;
+}
+
+.navbar-logo {
+    margin-left: 7%;
+    font-size: larger;
+}
+
+.navbar-search form {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-search input[type="text"] {
+    padding: 5px;
+    width: 550px;
+    border-right: none;
+    border-radius: 3px;
+    font-size: 22px;
+}
+
+input[type=text]:focus {
+    padding: 5px;
+    width: 550px;
+    border-right: none;
+    border-radius: 3px;
+    font-size: 22px;
+}
+
+.navbar-search button[type="submit"] {
+    border-left: none;
+    border-radius: 3px;
+    background-color: #fff;
+    color: #333;
+    cursor: pointer;
+}
+
+.navbar-search button img {
+    height: 31px;
+}
+
+.navbar-links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-link {
+    padding: 10px;
+}
+
+.navbar-link a {
+    color: black;
+    text-decoration: none;
+}
+
+.search-input {
+    flex: 1;
+    border: 1px solid;
+    outline: none;
+}
+
+.search-input:focus {
+    border-right: none;
+}
+
+.search-button {
+    background-color: transparent;
+    border: 1px solid;
+    outline: none;
+    cursor: pointer;
+}
