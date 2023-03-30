@@ -55,19 +55,43 @@ input[type=text]:focus {
     height: 31px;
 }
 
-.navbar-links {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+nav ul {
+    list-style-type: none;
 }
 
-.navbar-link {
-    padding: 10px;
+nav ul li {
+    display: inline-block;
+    position: relative;
 }
 
-.navbar-link a {
+nav ul li a {
+    display: block;
+    padding: 10px 15px;
     color: black;
     text-decoration: none;
+    text-align: center;
+    font-size: 20px;
+    width: 100px;
+}
+
+nav ul li ul.dropdown li {
+    display: block;
+}
+
+nav ul li ul.dropdown {
+    width: 100%;
+    background-color: transparent;
+    position: absolute;
+    z-index: 999;
+    display: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+nav ul li:hover ul.dropdown {
+    display: block;
 }
 
 .search-input {
