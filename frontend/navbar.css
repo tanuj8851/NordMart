@@ -46,9 +46,10 @@ input[type=text]:focus {
 .navbar-search button[type="submit"] {
     border-left: none;
     border-radius: 3px;
-    background-color: #fff;
+    background-color: #fcfcfc;
     color: #333;
     cursor: pointer;
+    flex: 0;
 }
 
 .navbar-search button img {
@@ -66,11 +67,11 @@ nav ul li {
 
 nav ul li a {
     display: block;
-    padding: 10px 15px;
+    padding: 5px 10px;
     color: black;
     text-decoration: none;
-    text-align: center;
-    font-size: 20px;
+    text-align: left;
+    font-size: 18px;
     width: 100px;
 }
 
@@ -80,7 +81,7 @@ nav ul li ul.dropdown li {
 
 nav ul li ul.dropdown {
     width: 100%;
-    background-color: transparent;
+    background-color: greenyellow;
     position: absolute;
     z-index: 999;
     display: none;
@@ -109,4 +110,8 @@ nav ul li:hover ul.dropdown {
     border: 1px solid;
     outline: none;
     cursor: pointer;
+}
+
+.SignIn-btn {
+    width: 100%;
 }
