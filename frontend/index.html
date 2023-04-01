@@ -5,50 +5,586 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>NordMart</title>
-    <link rel="icon" type="image/x-icon" href="./images/logo.png">
-    <link rel="stylesheet" href="./styles/index.css">
-    <link rel="stylesheet" href="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css">
+    <title>Online Shopping for Women,Men, Kids Fashion & Lifestyle - NordMart</title>
+    <script src="https://kit.fontawesome.com/0244637c96.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./style/index.css">
+    <link rel="stylesheet" href="/path/to/flickity.css" media="screen">
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <link rel="shortcut icon" href="./logo/Fash-Mart.png" type="image/x-icon">
 </head>
 
 <body>
-    <div id="top">
-        <p>Shipping outside of the U.S. or Canada? <a href="navbar.html"> Learn About International Shipping</a></p>
-    </div>
-    <div id="main-body">
-        <!-- Navbar -->
-        <nav>
 
-        </nav>
-        <!-- Navbar done   -->
 
-        <div id="carouselExample" class="carousel slide carousel-fade">
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img src="https://n.nordstrommedia.com/id/46238f69-1340-4537-8f95-4058195fdccb.jpeg?h=700&w=1608" class="d-block w-100" alt="...">
+    <header class="header">
+        <div class="container">
+            <div class="row v-center" style="display: flex;">
+                <div class="header-item item-left">
+                    <div class="logo">
+                        <a href="./index.html"><img style="width: 80px;" src="./logo/Fash-Mart.png" alt=""></a>
+                    </div>
                 </div>
-                <div class="carousel-item">
-                    <img src="https://n.nordstrommedia.com/id/729ea1c0-1c62-4101-8e51-76bc3b2b8c8e.jpeg?h=700&w=1608" class="d-block w-100" alt="...">
+                <!-- menu start here -->
+                <div class="header-item item-center">
+                    <div class="menu-overlay">
+                    </div>
+                    <nav class="menu">
+                        <div class="mobile-menu-head">
+                            <div class="go-back"><i class="fa fa-angle-left"></i></div>
+                            <div class="current-menu-title"></div>
+                            <div class="mobile-menu-close">&times;</div>
+                        </div>
+                        <ul class="menu-main">
+                            <li class="menu-item-has-children">
+
+                                <a style="font-weight: 700;" class="anc" href="./mensection.html">MEN</a>
+
+                                <div class="sub-menu mega-menu mega-menu-column-4">
+                                    <div class="list-item">
+                                        <h4 class="title">Topwear</h4>
+                                        <ul>
+                                            <li><a href="#">T-Shirts</a></li>
+                                            <li><a href="#">Casual Shirts</a></li>
+                                            <li><a href="#">Formal Shirts</a></li>
+                                            <li><a href="#">Sweatshirts</a></li>
+                                            <li><a href="#">Jackets</a></li>
+                                            <li><a href="#">Blazers & Coats</a></li>
+                                            <li><a href="#">Suits</a></li>
+                                            <li><a href="#">Rain Jackets</a></li>
+                                        </ul>
+                                        <h4 class="title">Indian & Festive Wear</h4>
+                                        <ul>
+                                            <li><a href="#">Kurtas & Kurtas Sets</a></li>
+                                            <li><a href="#">Sherwanis</a></li>
+                                            <li><a href="#">Nehru Jackets</a></li>
+                                            <li><a href="#">Dhotis</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="list-item">
+                                        <h4 class="title">Bottomwear</h4>
+                                        <ul>
+                                            <li><a href="#">Jeans</a></li>
+                                            <li><a href="#">Casual Trousers</a></li>
+                                            <li><a href="#">Formal Trousers</a></li>
+                                            <li><a href="#">Shorts</a></li>
+                                            <li><a href="#">Track Pants & Joggers</a></li>
+                                        </ul>
+                                        <h4 class="title">Innerwear & Sleepwear</h4>
+                                        <ul>
+                                            <li><a href="#">Briefs & Trunks</a></li>
+                                            <li><a href="#">Boxers</a></li>
+                                            <li><a href="#">Vests</a></li>
+                                            <li><a href="#">Sleepwear & Loungewear</a></li>
+                                            <li><a href="#">Thermals</a></li>
+                                        </ul>
+                                        <h4 class="title">Plus Size</h4>
+                                    </div>
+                                    <div class="list-item">
+                                        <h4 class="title">Footwear</h4>
+                                        <ul>
+                                            <li><a href="#">Casual Shoes</a></li>
+                                            <li><a href="#">Sports Shoes</a></li>
+                                            <li><a href="#">Formal Shoes</a></li>
+                                            <li><a href="#">Sneakers</a></li>
+                                            <li><a href="#">Sandals & Flipflops</a></li>
+                                            <li><a href="#">Flip Flops</a></li>
+                                            <li><a href="#">Socks</a></li>
+                                        </ul>
+                                        <h4 class="title">Personal Care & Grooming</h4>
+                                        <h4 class="title">Sunglasses & Frames</h4>
+                                        <h4 class="title">Watches</h4>
+                                    </div>
+                                    <div class="list-item">
+                                        <h4 class="title">Sports & Active Wear</h4>
+                                        <ul>
+                                            <li><a href="#">Sports Shoes</a></li>
+                                            <li><a href="#">Sports Sandals</a></li>
+                                            <li><a href="#">Active T-Shirts</a></li>
+                                            <li><a href="#">Track Pants & Shorts</a></li>
+                                            <li><a href="#">Tracksuits</a></li>
+                                            <li><a href="#">Jackets & Sweatshirts</a></li>
+                                            <li><a href="#">Sports Accessories</a></li>
+                                            <li><a href="#">Swimwear</a></li>
+                                        </ul>
+                                        <h4 class="title">Gadgets</h4>
+                                        <ul>
+                                            <li><a href="">Smart Wearables</a></li>
+                                            <li><a href="">Fitness Gadgets</a></li>
+                                            <li><a href="">Headphones</a></li>
+                                            <li><a href="">Speakers</a></li>
+                                        </ul>
+                                    </div>
+
+                                </div>
+                            </li>
+                            <li class="menu-item-has-children">
+
+                                <a style="font-weight: 700;" class="anc" href="./womensection.html">WOMEN</a>
+
+                                <div class="sub-menu mega-menu mega-menu-column-4">
+                                    <div class="list-item">
+                                        <h4 class="title">Indian & Fusion Wear</h4>
+                                        <ul>
+                                            <li><a href="">Kurtas & Suits</a></li>
+                                            <li><a href="#">Kurtis, Tunics & Tops</a></li>
+                                            <li><a href="#">Sarees</a></li>
+                                            <li><a href="#">Ethnic Wear</a></li>
+                                            <li><a href="#">Leggings, Salwars & Churidars</a></li>
+                                            <li><a href="#">Skirts & Plazzos</a></li>
+                                            <li><a href="#">Dress Materials</a></li>
+                                            <li><a href="#">Lehenga Cholis</a></li>
+                                            <li><a href="#">Jackets</a></li>
+                                        </ul>
+                                        <h4 class="title">Belts, Scarves & More</h4>
+                                        <h4 class="title">Watches & Wearables</h4>
+
+                                    </div>
+                                    <div class="list-item">
+                                        <h4 class="title">Western Wear</h4>
+                                        <ul>
+                                            <li><a href="">Dresses</a></li>
+                                            <li><a href="#">Tops</a></li>
+                                            <li><a href="#">Tshirts</a></li>
+                                            <li><a href="#">Trousers & Capris</a></li>
+                                            <li><a href="">Shorts & Skirts</a></li>
+                                            <li><a href="">Co-ords</a></li>
+                                            <li><a href="">Playsuits</a></li>
+                                            <li><a href="">Jumpsuits</a></li>
+                                            <li><a href="">Shrugs</a></li>
+                                            <li><a href="">Sweaters & Sweatshirts</a></li>
+                                            <li><a href="">Jackets & Coats</a></li>
+                                            <li><a href="">Blazers & Waistcoats</a></li>
+                                        </ul>
+                                        <h4 class="title">Plus size</h4>
+
+                                    </div>
+                                    <div class="list-item">
+                                        <h4 class="title">Maternity</h4>
+                                        <h4 class="title">Sunglasses & Frames</h4>
+                                        <h4 class="title">Footwear</h4>
+                                        <ul>
+                                            <li><a href="">Flats</a></li>
+                                            <li><a href="">Casual Shirts</a></li>
+                                            <li><a href="">Heels</a></li>
+                                            <li><a href="">Boots</a></li>
+                                            <li><a href="">Sports Shoes & Floaters</a></li>
+                                        </ul>
+                                        <h4 class="title">Sports & Active Wear</h4>
+                                        <ul>
+                                            <li><a href="">Clothing</a></li>
+                                            <li><a href="">Footwear</a></li>
+                                            <li><a href="">Sports Accessories</a></li>
+                                            <li><a href="">Sports Equipment</a></li>
+                                        </ul>
+
+                                    </div>
+                                    <div class="list-item">
+
+                                        <h4 class="title">Lingerie & Sleepwear</h4>
+                                        <ul>
+                                            <li><a href="">Bra</a></li>
+                                            <li><a href="">Briefs</a></li>
+                                            <li><a href="">Shapewear</a></li>
+                                            <li><a href="">Sleepwear & Loungewear</a></li>
+                                            <li><a href="">Swimwear<a></li>
+                                    <li><a href="">Camisoles & Thermals</a></li>
+                                        </ul>
+                                        <h4 class="title">Beauty & Personal Care</h4>
+                                        <ul>
+                                            <li><a href="">Makeup</a></li>
+                                            <li><a href="">Skincare</a></li>
+                                            <li><a href="">Premium Beauty</a></li>
+                                            <li><a href="">Lipsticks</a></li>
+                                            <li><a href="">Fragrances<a></li>
+                                </ul>
+                                
+                              </div>
+
+                              
+                              
+                            </div>
+                        </li>
+                        <li class="menu-item-has-children">
+
+                            <a style="font-weight: 700;" class="anc" href="./boys.html">KIDS</a>
+
+                                            </li>
+                                            <li class="menu-item-has-children">
+                                                <a style="font-weight: 700;" class="anc" href="#">HOME & LIVING</a>
+                                            </li>
+                                            <li>
+                                                <a style="font-weight: 700;" class="anc" href="#">BEAUTY</a>
+                                            </li>
+                                            <li>
+                                                <a style="font-weight: 700;" class="anc" href="#">STUDIO</a>
+                                            </li>
+                                        </ul>
+                    </nav>
+                    </div>
+                    <!-- menu end here -->
+
+                    <div id="sea" style="display: flex;">
+                        <div id="searchBar">
+                            <div><i class="fa fa-search" aria-hidden="true"></i></div>
+                            <div><input id="inp" type="text" placeholder="Search for products, brands and more"></div>
+                        </div>
+
+                        <div id="profile">
+                            <div><button id="update_button">Update</button>
+                            </div>
+
+                            <div>
+                                <a href="./loginSigninPage.html"><i style="color: black;" class="fa fa-user-o" aria-hidden="true"></i></a>
+                                <p>Profile</p>
+                            </div>
+                            <div>
+                                <a href=""><i style="color: black;" class="fa fa-heart-o" aria-hidden="true"></i></a>
+                                <p>Wishlist</p>
+                            </div>
+                            <div>
+                                <a href="./cartPage.html"><i style="color: black;" class="fa fa-shopping-bag" aria-hidden="true"></i></a>
+                                <p>Bag</p>
+                            </div>
+                            <div>
+                                <a style="color: black;font-size: 20px;" href="./html/admin.html">Admin</a>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    </div>
                 </div>
-                <div class="carousel-item">
-                    <img src="https://n.nordstrommedia.com/id/bcd143cc-73ad-4016-bf88-916d7639eeb3.jpeg?h=700&w=1608" class="d-block w-100" alt="...">
-                </div>
+    </header>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div id="cor">
+        <div class="main-carousel" data-flickity='{ "cellAlign": "left", "contain": true }'>
+            <div class="carousel-cell">
+                <img src="./Images/7cec9b95-a683-473c-aca8-cc510821b1cd1676394720493-Desktop-Banner.gif" />
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
-            </button>
+            <div class="carousel-cell">
+                <img src="./Images/f155cbdf-5682-46d4-bb8c-c533e7f450ba1676894572387-MFB_Prebuzz_Main-Banner_2.jpg" />
+            </div>
+            <div class="carousel-cell">
+                <img src="./Images/84b6a214-9eb3-49eb-9f9d-72cec56ec5d71659019908592-Indian-Wear_DK--1-.jpg" />
+            </div>
+            <div class="carousel-cell">
+                <img src="./Images/9be788ff-39a4-4214-99d0-fc97505aae5a1658752545685-USPA_Desk_Banner.jpg" />
+            </div>
+            <div class="carousel-cell">
+                <img src="./Images/b656a7f4-4688-4997-bb7c-54b78793981e1658752386588-Western-Wear_Desk.jpg" />
+            </div>
+            <div class="carousel-cell">
+                <img src="./Images/6107d28b-2bcb-44e6-9743-655b54550b8f1659020199598-Workwear_Desk--1-.jpg" />
+            </div>
+            <div class="carousel-cell">
+                <img src="./Images/4031994d-9092-4aa7-aea1-f52f2ae5194f1654006594976-Activewear_DK.jpg" />
+            </div>
+            <div class="carousel-cell">
+                <img src="./Images/179e278f-77ee-44c2-bf39-9f00b0cd08e01658752429301-Handbags_Desk.jpg" />
+            </div>
+            <div class="carousel-cell">
+                <img src="./Images/0174e4d7-448c-4746-8572-69461ad5be101659020268081-Tops---Tees_Desk.jpg" />
+            </div>
+
+        </div>
+    </div>
+
+    <h1 style="margin-top:100px ;margin-left: 35px;color: rgb(80, 81, 81);font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">DEAL OF THE DAY</h1>
+    <div id="deal">
+        <div>
+            <img src="https://assets.myntassets.com/w_122,c_limit,fl_progressive,dpr_2.0/assets/images/2023/2/19/44a9b614-4f67-4b5a-89e5-ee50f7d5f8681676819472882-HRX_Activewear_Min_65_off.png" alt="">
+        </div>
+        <div>
+            <img src="https://assets.myntassets.com/w_122,c_limit,fl_progressive,dpr_2.0/assets/images/2023/2/19/ea799980-8939-4dc3-8bbe-72b3f63ab8e31676819472832-Casual_Shoes_Min_40_Off.png" alt="">
+        </div>
+        <div>
+            <img src="https://assets.myntassets.com/w_122,c_limit,fl_progressive,dpr_2.0/assets/images/2023/2/19/06d56cbf-0135-426a-a81a-b637c6f30dac1676819472817-Campus-_Highlander_Starting_499_1299.png" alt="">
+        </div>
+        <div>
+            <img src="https://assets.myntassets.com/w_122,c_limit,fl_progressive,dpr_2.0/assets/images/2023/2/19/216f9bdf-e348-4e9d-b108-f22ceafbf4911676819472966-Starting_1299_2499.png" alt="">
+        </div>
+        <div>
+            <img src="https://assets.myntassets.com/w_122,c_limit,fl_progressive,dpr_2.0/assets/images/2023/2/19/6ecb87f9-bd94-4c0a-a64b-4692197d6be21676819472939-Roadster-_Here_-_Now_-_more___Flat_70_off.png" alt="">
+        </div>
+        <div>
+            <img src="https://assets.myntassets.com/w_122,c_limit,fl_progressive,dpr_2.0/assets/images/2023/2/19/18e8fbf9-7702-4f58-95a4-7cdb69850e641676819472892-Mango_Man-_Levi-s-____Flat_50_off.png" alt="">
+        </div>
+        <div>
+            <img src="https://assets.myntassets.com/w_122,c_limit,fl_progressive,dpr_2.0/assets/images/2023/2/19/d3ab2a84-91c5-4137-b3b3-807b540bcc531676819472859-H-M-_USPA___STarting_399.png" alt="">
+        </div>
+        <div>
+            <img src="https://assets.myntassets.com/w_122,c_limit,fl_progressive,dpr_2.0/assets/images/2023/2/19/cd86754f-29cc-4a42-b8f1-bce7218493031676819472927-Puma-_Nike_-_more_-min_40_off.png" alt="">
+        </div>
+    </div>
+    <h1 style="margin:50px ;margin-left: 35px;color: rgb(80, 81, 81);font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">BEST OF NORDMART EXCLUSIVE BRANDS</h1>
+    <div id="brand">
+        <div><img src="https://assets.myntassets.com/w_122,c_limit,fl_progressive,dpr_2.0/assets/images/retaillabs/2022/3/10/b25f89eb-fbeb-4013-829e-32ee5b5daaa01646895183668-Roadster-HRX_Unisex.jpg" alt=""></div>
+        <div><img src="https://assets.myntassets.com/w_122,c_limit,fl_progressive,dpr_2.0/assets/images/2022/2/9/bfa5c871-a5a5-4d81-b46e-18aedccfdc9b1644407437913-Kurta_sets-_Anouk-_AAY_-_more.jpg" alt=""></div>
+        <div><img src="https://assets.myntassets.com/w_122,c_limit,fl_progressive,dpr_2.0/assets/images/2022/2/9/046147d1-1874-4c10-adb9-6dbd88b606e71644407437923-Kurtas-_Anouk-_Sangria_-_more.jpg" alt=""></div>
+        <div><img src="https://assets.myntassets.com/w_122,c_limit,fl_progressive,dpr_2.0/assets/images/2022/2/9/76acf345-fc62-4b49-8b2c-9c0fc9c925311644407437977-Tops_-_Dressberry-_AAY_-_more.jpg" alt=""></div>
+        <div><img src="https://assets.myntassets.com/w_122,c_limit,fl_progressive,dpr_2.0/assets/images/2022/2/9/3923c0c1-2260-4f0e-9598-15b6f9d7731c1644407437960-Roadster_and_H-N_Shirts.jpg" alt=""></div>
+        <div><img src="https://assets.myntassets.com/w_122,c_limit,fl_progressive,dpr_2.0/assets/images/2022/2/9/eb70855e-98c4-412d-bf20-50804546d57e1644407437883-Dresses_-_Dressberry-_Chemistry_-_more.jpg" alt=""></div>
+        <div><img src="https://assets.myntassets.com/w_122,c_limit,fl_progressive,dpr_2.0/assets/images/2022/2/9/eff5a33f-ea24-4e70-84e5-ec4d25ee5c7b1644407437968-Roadster_and_KnK_Tshirts.jpg" alt=""></div>
+        <div><img src="https://assets.myntassets.com/w_122,c_limit,fl_progressive,dpr_2.0/assets/images/2022/2/9/667a71f0-c24b-4a00-a98c-cc6a54a815e91644407437985-Tshirts_-_Roadster-_KnK_-_more.jpg" alt=""></div>
+
+        <div><img src="https://assets.myntassets.com/w_122,c_limit,fl_progressive,dpr_2.0/assets/images/2022/2/9/ffaa74a6-4824-4b19-8936-70ffaef92f001644407437937-M-H_and_HRX_Tshirts.jpg" alt=""></div>
+        <div><img src="https://assets.myntassets.com/w_122,c_limit,fl_progressive,dpr_2.0/assets/images/2022/2/9/f9621136-0f00-44d5-aa06-b727a6c8f7c51644407437944-M-H_and_Wrogn_Shirts.jpg" alt=""></div>
+        <div><img src="https://assets.myntassets.com/w_122,c_limit,fl_progressive,dpr_2.0/assets/images/2022/2/9/3f41465b-7109-4bb2-bf79-ab89ff2128be1644407437899-HRX_and_Harvard_Trackpants.jpg" alt=""></div>
+        <div><img src="https://assets.myntassets.com/w_122,c_limit,fl_progressive,dpr_2.0/assets/images/2022/2/9/745cec57-af58-4ba6-8ae1-a3ccbe7c54e91644407437930-Lingerie_-_Loungewear_-_DB-_ETC.jpg" alt=""></div>
+        <div><img src="https://assets.myntassets.com/w_122,c_limit,fl_progressive,dpr_2.0/assets/images/2022/2/9/e27ee3af-3f6b-4106-9b20-2b4463c80ba41644407437953-Roadster-_Wrogn_Jeans.jpg" alt=""></div>
+        <div><img src="https://assets.myntassets.com/w_122,c_limit,fl_progressive,dpr_2.0/assets/images/2022/2/9/2b15a87a-1d92-4edf-99c2-ec390a38089e1644407437872-Activewear_-_HRX-_Slazenger.jpg" alt=""></div>
+        <div><img src="https://assets.myntassets.com/w_122,c_limit,fl_progressive,dpr_2.0/assets/images/2022/2/9/931b0b8f-c14d-4ec7-b923-cf512de991731644407437891-HOP_and_Anouk_Kurtas_-_sets.jpg" alt=""></div>
+        <div><img src="https://assets.myntassets.com/w_122,c_limit,fl_progressive,dpr_2.0/assets/images/2022/2/9/201d1bfd-287e-47b6-bef6-3c46eac444a51644407437906-Jeans_-_Roadster-_M-H_and_more.jpg" alt=""></div>
+    </div>
+    <h1 style="margin:50px ;margin-left: 35px;color: rgb(80, 81, 81);font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">TOP PICKS</h1>
+    <div id="topPick">
+        <div>
+            <img src="https://assets.myntassets.com/w_140,c_limit,fl_progressive,dpr_2.0/assets/images/2022/2/23/062cea23-9a6a-44b9-bdd4-87cae6a462311645602543339-Kurta-sets.jpg" alt="">
+        </div>
+        <div>
+            <img src="https://assets.myntassets.com/w_140,c_limit,fl_progressive,dpr_2.0/assets/images/2022/2/23/8d65d400-decd-4f42-902c-a40350a16ed11645602543346-Kurtas.jpg" alt="">
+        </div>
+        <div>
+            <img src="https://assets.myntassets.com/w_140,c_limit,fl_progressive,dpr_2.0/assets/images/2022/2/23/398ee53b-5899-4a9a-9d0b-b35d60c01cb41645602543325-Dresses.jpg" alt="">
+        </div>
+        <div>
+            <img src="https://assets.myntassets.com/w_140,c_limit,fl_progressive,dpr_2.0/assets/images/2022/2/23/2f410d81-7fae-400e-9ecc-b4a8b6df72b91645602543430-Women-Jeans.jpg" alt="">
+        </div>
+        <div>
+            <img src="https://assets.myntassets.com/w_140,c_limit,fl_progressive,dpr_2.0/assets/images/2022/2/23/82a9be01-3032-4725-9500-bcc94366b7931645602543399-Mens-Shirts.jpg" alt="">
+        </div>
+        <div>
+            <img src="https://assets.myntassets.com/w_140,c_limit,fl_progressive,dpr_2.0/assets/images/2022/2/23/c6b09c0f-5c57-472c-a3fc-854ec506a90e1645602543387-Men-T-shirt.jpg" alt="">
+        </div>
+        <div>
+            <img src="https://assets.myntassets.com/w_140,c_limit,fl_progressive,dpr_2.0/assets/images/2022/2/23/f08e2bac-9bed-4f87-b022-0dce8defeded1645602543380-Men-Trousers.jpg" alt="">
+        </div>
+    </div>
+    <h1 style="margin:50px ;margin-left: 35px;color: rgb(80, 81, 81);font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">CATEGORIES TO BAG</h1>
+    <div id="cateBag">
+        <div>
+            <img src="https://assets.myntassets.com/w_122,c_limit,fl_progressive,dpr_2.0/assets/images/2022/2/23/aa4658b5-d723-4652-9ea1-00456b355c3a1645602467046-Kurta-Sets.jpg" alt="">
+        </div>
+        <div>
+            <img src="https://assets.myntassets.com/w_122,c_limit,fl_progressive,dpr_2.0/assets/images/2022/2/23/aae4be67-e611-47f4-b94e-92a16a36df731645602467007-Hangbags.jpg" alt="">
+        </div>
+        <div>
+            <img src="https://assets.myntassets.com/w_122,c_limit,fl_progressive,dpr_2.0/assets/images/2022/2/23/0f0be09e-4155-47bf-82e1-51044e7e7fd11645602467052-Kurtas.jpg" alt="">
+        </div>
+        <div>
+            <img src="https://assets.myntassets.com/w_122,c_limit,fl_progressive,dpr_2.0/assets/images/2022/2/23/dd4414f8-4e1b-4a22-997e-8e06c0a5ff861645602467167-T-Shirts.jpg" alt="">
+        </div>
+        <div>
+            <img src="https://assets.myntassets.com/w_122,c_limit,fl_progressive,dpr_2.0/assets/images/2022/2/23/f9ca5609-b634-42d4-8c08-a8eaebb818b71645602467085-Sarees.jpg" alt="">
+        </div>
+        <div>
+            <img src="https://assets.myntassets.com/w_122,c_limit,fl_progressive,dpr_2.0/assets/images/2022/2/23/0b7869d4-f825-4625-b1db-58ad10a45f301645602467093-Shirts.jpg" alt="">
+        </div>
+        <div>
+            <img src="https://assets.myntassets.com/w_122,c_limit,fl_progressive,dpr_2.0/assets/images/2022/2/23/b34a30a6-504b-4c94-b7e1-61391d536bc51645602467038-Jewellery.jpg" alt="">
+        </div>
+        <div>
+            <img src="https://assets.myntassets.com/w_122,c_limit,fl_progressive,dpr_2.0/assets/images/2022/2/23/b156f76a-26e7-4bce-9941-8a67d3c16f331645602467120-Teens-Wear.jpg" alt="">
         </div>
 
+        <div>
+            <img src="https://assets.myntassets.com/w_122,c_limit,fl_progressive,dpr_2.0/assets/images/2022/2/23/fb091b07-c275-4578-b08d-b4f93dfe9e841645602466976-Beauty.jpg" alt="">
+        </div>
+        <div>
+            <img src="https://assets.myntassets.com/w_122,c_limit,fl_progressive,dpr_2.0/assets/images/2022/2/23/b827f900-ed61-4467-84fa-a6e357787e761645602467079-Plus-Size-Styles_W.jpg" alt="">
+        </div>
+        <div>
+            <img src="https://assets.myntassets.com/w_122,c_limit,fl_progressive,dpr_2.0/assets/images/2022/2/23/cd083042-3bb2-4231-8b96-0234fc0ed23f1645602467032-Jeans.jpg" alt="">
+        </div>
+        <div>
+            <img src="https://assets.myntassets.com/w_122,c_limit,fl_progressive,dpr_2.0/assets/images/2022/2/23/736f3951-e67b-414f-bfb1-56e2794d441d1645602467114-Sports-Shoes.jpg" alt="">
+        </div>
+        <div>
+            <img src="https://assets.myntassets.com/w_122,c_limit,fl_progressive,dpr_2.0/assets/images/2022/2/23/d13255df-c846-4dbd-8458-77ccaba4f9eb1645602467142-Trousers.jpg" alt="">
+        </div>
+        <div>
+            <img src="https://assets.myntassets.com/w_122,c_limit,fl_progressive,dpr_2.0/assets/images/2022/2/23/7a774194-94e6-49b5-b8bb-64bf9901bc671645602466989-Casual-Shoes.jpg" alt="">
+        </div>
+        <div>
+            <img src="https://assets.myntassets.com/w_122,c_limit,fl_progressive,dpr_2.0/assets/images/2022/2/23/5860c3c2-a639-4625-ac1d-4d55406f128a1645602467134-Track-Pants.jpg" alt="">
+        </div>
+        <div>
+            <img src="https://assets.myntassets.com/w_122,c_limit,fl_progressive,dpr_2.0/assets/images/2022/2/23/07e5c29a-2eab-4b2d-b617-6565ffe1f4701645602467025-Innerwear.jpg" alt="">
+        </div>
 
+        <div>
+            <img src="https://assets.myntassets.com/w_122,c_limit,fl_progressive,dpr_2.0/assets/images/2022/2/23/09b3164c-241a-4134-baa1-49b12c56c3901645602466968-Bath-Essentials.jpg" alt="">
+        </div>
+        <div>
+            <img src="https://assets.myntassets.com/w_122,c_limit,fl_progressive,dpr_2.0/assets/images/2022/2/23/171a820e-96f0-4b11-a138-03953a7e05481645602467153-Trousers_W.jpg" alt="">
+        </div>
+        <div>
+            <img src="https://assets.myntassets.com/w_122,c_limit,fl_progressive,dpr_2.0/assets/images/2022/2/23/054a056f-33e8-4b6c-b747-9b88d7fce0a11645602467174-Watches.jpg" alt="">
+        </div>
+        <div>
+            <img src="https://assets.myntassets.com/w_122,c_limit,fl_progressive,dpr_2.0/assets/images/2022/2/23/d3c5cd23-392f-40be-8080-99ffb79c27261645602467128-Tops.jpg" alt="">
+        </div>
+        <div>
+            <img src="https://assets.myntassets.com/w_122,c_limit,fl_progressive,dpr_2.0/assets/images/2022/2/23/355b9499-3345-4457-8b3b-2eeceaecf4561645602467020-Infant-Essentials.jpg" alt="">
+        </div>
+        <div>
+            <img src="https://assets.myntassets.com/w_122,c_limit,fl_progressive,dpr_2.0/assets/images/2022/2/23/7f814546-b705-4d9b-9ab5-1ddfeca786391645602467001-Flip-Flops.jpg" alt="">
+        </div>
+        <div>
+            <img src="https://assets.myntassets.com/w_122,c_limit,fl_progressive,dpr_2.0/assets/images/2022/2/23/12c3b4aa-8160-442f-b93e-e896eafb1b0a1645602467160-T-Shirts-_-Shorts_Kids.jpg" alt="">
+        </div>
+        <div>
+            <img src="https://assets.myntassets.com/w_122,c_limit,fl_progressive,dpr_2.0/assets/images/2022/2/23/67783047-7fcc-4530-9368-9be75a713e411645602466995-Dresses.jpg" alt="">
+        </div>
     </div>
 
+    <h1 style="margin:50px ;margin-left: 35px;color: rgb(80, 81, 81);font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">GIFTING CARDS</h1>
+    <div id="gift">
+        <div>
+            <img src="https://assets.myntassets.com/w_245,c_limit,fl_progressive,dpr_2.0/assets/images/2022/8/22/22b3c59a-fa16-434d-b2e1-d8779f1abe871661164884892-Gift-Card-Banner.png" alt="">
+        </div>
+        <div>
+            <img src="https://assets.myntassets.com/w_245,c_limit,fl_progressive,dpr_2.0/assets/images/2021/11/12/ef1e7c6b-bec4-471c-9c36-72fffd975c0c1636738225251-happy-wedding.jpg" alt="">
+        </div>
+        <div>
+            <img src="https://assets.myntassets.com/w_245,c_limit,fl_progressive,dpr_2.0/assets/images/2021/11/12/72f3fe20-f0a5-4894-852c-817b40b285291636738225244-happy-birthday.jpg" alt="">
+        </div>
+        <div>
+            <img src="https://assets.myntassets.com/w_245,c_limit,fl_progressive,dpr_2.0/assets/images/2021/11/12/934a734c-ebb4-48c4-96d0-018e1e5eb7e21636738225215-milestones.jpg" alt="">
+        </div>
+    </div>
+
+    <footer>
+        <div id="foot">
+            <div>
+                <h5>ONLINE SHOPPING</h5>
+                <a href="">Men</a><br><a href="">Women</a><br><a href="">Kids</a><br><a href="">Home & Living</a><br><a href="">Beauty</a><br><a href="">Gift Cards</a><br><a href="">NordMart Insider</a>
+                <h5>USEFUL LINKS</h5>
+                <a href="">Blog</a><br><a href="">Careers</a><br><a href="">Site Map</a><br><a href="">Corporate Information</a><br><a href="">Whitehat</a>
+            </div>
+            <div>
+                <h5>CUSTOMER POLICIES</h5>
+                <a href="">Contact Us</a>
+                <br>
+                <a href="">FAQ</a>
+                <br>
+                <a href="">T&C</a>
+                <br>
+                <a href="">Terms Of Use</a>
+                <br>
+                <a href="">Track Orders</a>
+                <br>
+                <a href="">Shipping</a>
+                <br>
+                <a href="">Cancellation</a>
+                <br>
+                <a href="">Returns</a>
+                <br>
+                <a href="">Privacy policy</a>
+                <br>
+                <a href="">Grievance Officer</a>
+            </div>
+            <div>
+                <h5>EXPERIENCE NordMart APP ON MOBILE</h5>
+                <div id="down">
+                    <div>
+                        <a href="https://play.google.com/store/apps/details?id=com.myntra.android">
+                            <img src="https://constant.myntassets.com/web/assets/img/80cc455a-92d2-4b5c-a038-7da0d92af33f1539674178924-google_play.png" alt="">
+                        </a>
+                    </div>
+                    <div>
+                        <a href="https://apps.apple.com/in/app/myntra-indias-fashion-store/id907394059">
+                            <img src="https://constant.myntassets.com/web/assets/img/bc5e11ad-0250-420a-ac71-115a57ca35d51539674178941-apple_store.png" alt="">
+                        </a>
+                    </div>
+                </div>
+                <h5>KEEP IN TOUCH</h5>
+                <div id="icons">
+                    <div><i class="fa-brands fa-square-facebook fa-xl"></i></div>
+                    <div><i class="fa-brands fa-twitter fa-xl"></i></div>
+                    <div><i class="fa-brands fa-youtube fa-xl"></i></div>
+                    <div><i class="fa-brands fa-instagram fa-xl"></i></div>
+                </div>
+            </div>
+            <div id="pareshan">
+                <!-- <div> -->
+                <div style="display: flex;">
+                    <div><img width="70px" src="https://constant.myntassets.com/web/assets/img/6c3306ca-1efa-4a27-8769-3b69d16948741574602902452-original.png" alt=""></div>
+                    <div>
+                        <h3 style="margin-left: 30px;">100% ORIGINAL <span id="pareSpan">guarantee for all product at NordMart</span></h3>
+
+                    </div>
+                </div>
+                <div style="display: flex;">
+                    <div><img width="70px" src="https://constant.myntassets.com/web/assets/img/ef05d6ec-950a-4d01-bbfa-e8e5af80ffe31574602902427-30days.png" alt=""></div>
+                    <div>
+                        <h3 style="margin-left: 30px;">Return with 30 days<span id="pareSpan"> of receiving your order</span></h3>
+                    </div>
+                </div>
+                <!-- </div> -->
+            </div>
+        </div>
+        <div style="width: 75%;margin: auto;display: flex;">
+            <div>
+                <h5>POPULAR SEARCHES</h5>
+            </div>
+            <div style="height: 0.5px;margin-top: 30px;margin-left: 20px;background-color: black;width: 1100px;"></div>
+
+        </div>
+        <p style="width: 75%;margin: auto;line-height: 1.8;cursor: pointer;">Makeup | Dresses For Girls | T-Shirts | Sandals | Headphones | Babydolls | Blazers For Men | Handbags | Ladies Watches | Bags | Sport Shoes | Reebok Shoes | Puma Shoes | Boxers | Wallets | Tops | Earrings | Fastrack Watches | Kurtis | Nike | Smart
+            Watches | Titan Watches | Designer Blouse | Gowns | Rings | Cricket Shoes | Forever 21 | Eye Makeup | Photo Frames | Punjabi Suits | Bikini | Myntra Fashion Show | Lipstick | Saree | Watches | Dresses | Lehenga | Nike Shoes | Goggles | Bras
+            | Suit | Chinos | Shoes | Adidas Shoes | Woodland Shoes | Jewellery | Designers Sarees</p>
+        <div id="foot4">
+            <div>In case of any concern, <span style="color: rgb(0, 77, 140);font-size: 18px;cursor: pointer;;">Contact Us</span>
+            </div>
+            <div>©2023 www.NordMart.com. All rights reserved</div>
+        </div>
+    </footer>
+
 </body>
+<script src="./script/index.js"></script>
+<script src="/path/to/flickity.pkgd.min.js"></script>
+<script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+<script src="./scripts/navbar.js"></script>
+<script>
+    var elem = document.querySelector('.main-carousel');
+    var flkty = new Flickity(elem, {
+        // options
+        cellAlign: 'left',
+        contain: true
+    });
+</script>
+<script src="/path/to/flickity.pkgd.min.js"></script>
+<script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+<script>
+    var elem = document.querySelector('.main-carouse');
+    var flkty = new Flickity(elem, {
+        // options
+        cellAlign: 'left',
+        contain: true
+    });
+
+
+    function myFunction() {
+        var x = document.getElementById("anchors");
+        if (x.className === "topnav") {
+            x.className += " responsive";
+        } else {
+            x.className = "topnav";
+        }
+    }
+</script>
 
 </html>
-<script src="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"></script>
-<script src="./scripts/index.js"></script>

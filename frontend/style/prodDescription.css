@@ -1,0 +1,163 @@
+* {
+    font-family: 'Ibarra Real Nova', serif;
+}
+
+#main-body {
+    height: 100%;
+    border: 1px solid;
+    padding: 20px;
+}
+
+#showcase {
+    height: 100%;
+    /* border: 1px solid; */
+    display: flex;
+    font-size: 20px;
+}
+
+#img-section {
+    /* border: 1px solid; */
+    width: 48%;
+    margin: 0px auto;
+}
+
+#check {
+    background-color: white;
+    border: 1px solid black;
+    padding: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    border-left: none;
+    color: #f62052;
+}
+
+#check:hover {
+    background-color: whitesmoke;
+    cursor: pointer;
+}
+
+#pincode {
+    width: 5cm;
+    border: 1px solid black;
+    border-right: none;
+    /* height: 1cm; */
+    padding: 5px;
+    font-size: 20px;
+}
+
+#des-section {
+    border: 1px solid;
+    padding: 20px;
+}
+
+#desc-section {
+    /* border: 1px solid; */
+    width: 48%;
+    /* padding: 20px; */
+}
+
+#image {
+    height: 20cm;
+    width: 50%;
+    margin-left: 100px;
+    padding: 2cm;
+    margin: auto;
+}
+
+#image:hover {
+    /* height: 16cm;
+    width: 51%; */
+    /* cursor: zoom-out; */
+}
+
+.checked {
+    color: green;
+}
+
+#display {
+    font-size: small;
+    font-weight: bold;
+}
+
+#name-section {
+    line-height: 0.8;
+}
+
+#name-section>p {
+    margin: 0%;
+}
+
+#name-section>h3 {
+    margin: 0%;
+    padding: 0%;
+}
+
+#pricing-section {
+    line-height: 0.7;
+}
+
+#addtocart {
+    color: white;
+    background-color: #ff3f6c;
+    border: none;
+    padding: 10px;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+#addtocart:hover {
+    background-color: #f62052;
+    cursor: pointer;
+}
+
+#wishlist {
+    color: black;
+    background-color: white;
+    /* border: 1px solid; */
+    padding: 10px;
+    padding: 10px;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+#wishlist:hover {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+li {
+    list-style-type: none;
+}
+
+#prod-p:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+@media screen and (min-width:600px) and (max-width:1000px) {
+    #showcase {
+        height: 100%;
+        /* border: 1px solid; */
+        display: block;
+    }
+    #desc-section {
+        /* margin: auto; */
+        width: 70%;
+        margin-top: 10px;
+    }
+    #image {
+        height: 13cm;
+        border: none;
+        width: 60%;
+    }
+    #image:hover {
+        cursor: pointer;
+    }
+    #addtocart {
+        width: 50%;
+    }
+    #wishlist {
+        width: 47%;
+    }
+}

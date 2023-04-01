@@ -1,0 +1,266 @@
+* {
+    margin: 0px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#main {
+    padding: 10px 0px 10px 20px;
+}
+
+#product-count {
+    color: rgb(158, 158, 158);
+}
+
+.filters {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.filter-nav {
+    display: flex;
+}
+
+.filter-nav>p {
+    margin-left: 30px;
+    font-size: 15px;
+}
+
+.filter-nav>p:nth-child(1) {
+    color: #ff3f6c;
+}
+
+.filter-nav>p:hover {
+    cursor: pointer;
+}
+
+#sortby {
+    width: 250px;
+    height: 40px;
+}
+
+.product-section {
+    display: flex;
+    justify-content: space-between;
+    /* padding: 10px; */
+}
+
+#sidebar {
+    border: 1px solid rgb(192, 192, 192);
+    width: 17%;
+}
+
+#product-card-container {
+    border: 1px solid rgb(192, 192, 192);
+    width: 83%;
+    padding: 20px;
+}
+
+.gender-category {
+    border-bottom: 1px solid rgb(192, 192, 192);
+    padding: 15px;
+}
+
+.gender-category>div {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.gender-category>div>input {
+    margin-right: 10px;
+}
+
+.categories {
+    border-bottom: 1px solid rgb(192, 192, 192);
+    padding: 15px;
+}
+
+.categories>div {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.categories>div>input {
+    margin-right: 10px;
+}
+
+#categorySearch {
+    width: 72%;
+    height: 30px;
+}
+
+#categorySearchBtn {
+    height: 30px;
+}
+
+.brands {
+    border-bottom: 1px solid rgb(192, 192, 192);
+    padding: 15px;
+}
+
+.brands>div {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.brands>div>input {
+    margin-right: 10px;
+}
+
+#brandSearch {
+    width: 72%;
+    height: 30px;
+}
+
+#brandSearchBtn {
+    height: 30px;
+}
+
+.price-category {
+    border-bottom: 1px solid rgb(192, 192, 192);
+    padding: 15px;
+}
+
+.price-category>div {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.price-category>div>p {
+    font-size: 14px;
+}
+
+.price-category>div>input {
+    margin-right: 10px;
+}
+
+.discount-price {
+    border-bottom: 1px solid rgb(192, 192, 192);
+    padding: 15px;
+}
+
+.discount-price>div {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.discount-price>div>p {
+    font-size: 14px;
+}
+
+.discount-price>div>input {
+    margin-right: 10px;
+}
+
+#product-card-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 50px;
+    margin: auto;
+}
+
+.card {
+    padding: 20px;
+}
+
+.card:hover {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    cursor: pointer;
+}
+
+.card>p {
+    margin-top: 10px;
+}
+
+.order-btn {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.add-to-cart {
+    height: 45px;
+    width: 140px;
+    background-color: rgb(243, 243, 243);
+    color: #ff3f6c;
+    border-radius: 5px;
+    font-size: 15px;
+    padding: 10px;
+    border: 0px;
+}
+
+.add-to-cart:hover {
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border: 0px;
+}
+
+.order-btn {
+    margin-top: 10px;
+}
+
+.buy-now {
+    height: 45px;
+    width: 140px;
+    color: white;
+    border-radius: 5px;
+    background-color: #ff3f6c;
+    font-size: 15px;
+    padding: 10px;
+    border: 0px;
+}
+
+.buy-now:hover {
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border: 0px;
+}
+
+.paginate-btns {
+    float: right;
+    margin-top: 25px;
+}
+
+.paginate-btns>button {
+    font-size: 20px;
+    margin-right: 10px;
+    width: 50px;
+    height: 30px;
+    background-color: white;
+    color: #ff3f6c;
+    border: 1px solid rgb(208, 208, 208);
+}
+
+.paginate-btns>button:hover {
+    background-color: #e6e6e6;
+    cursor: pointer;
+}
+
+@media screen and (max-width:1060px) {
+    #product-card-container {
+        grid-template-columns: repeat(2, 1fr);
+        margin: auto;
+    }
+    #categorySearchBtn {
+        display: none;
+    }
+    #categorySearch {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:680px) {
+    #product-card-container {
+        grid-template-columns: repeat(1, 1fr);
+        margin: auto;
+    }
+    #sidebar {
+        display: none;
+    }
+    .filters {
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .paginate-btns>button {
+        flex-direction: column;
+    }
+}
