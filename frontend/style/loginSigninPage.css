@@ -1,0 +1,165 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    background-color: #ebc1ca;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#signupContainer{
+    display: none;
+}
+.logo{
+  
+    width: 20%;
+    margin: auto;
+    height: auto;
+    margin-top: 20px;
+}
+.logo img{
+    width: 100%;
+}
+#form-container,#signupContainer{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    width: 40%;
+    margin: auto;
+    margin-top: 30px;
+    background-color: white;
+    margin-bottom: 40px;
+}
+#signupContainer>div:nth-child(2){
+    width: 80%;
+    height: 90%;
+    margin: auto;
+    padding-bottom: 40px;
+}
+#registeredMobileNumber{
+    width: 100%;
+    padding: 5px;
+    font-size: 18px;
+}
+#formofferImg img{
+    width: 100%;
+}
+#mobile-number{
+    width: 85%;
+    margin: auto;
+    margin-top: 30px;
+}
+.login-signup{
+    font-size: 20px;
+    color: rgb(79, 75, 75);
+}
+#NumberInput{
+    width: 70%;
+    margin-left: 14%;
+    padding: 5px;
+    font-size: 16px;
+}
+.TermandConditions{
+    color:  #ff3f6c;
+}
+#continuebtn,.signupBtn,.signupFormBtn{
+    background-color: #ff3f6c;
+    color: white;
+    border: none;
+    width: 100%;
+    padding: 10px;
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 25px;
+    cursor: pointer;
+}
+.signupBtn{
+    margin-top: 30px;
+}
+#gethelp{
+    color:  #ff3f6c;
+}
+#form-container2 h3{
+    width: 80%;
+    margin: auto;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+#form-container2{
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    width: 40%;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+    padding-bottom: 30px;
+    padding-top: 30px;
+    display: none;
+}
+
+#registeredNum{
+    margin-top: 0%;
+}
+#numheadline{
+    margin-bottom: 0%;
+    color: gray;
+}
+#num{
+    
+    width: 80%;
+    margin: auto;
+}
+#passwordinput{
+    padding: 5px;
+    font-size: 18px;
+    width: 90%;
+    margin-bottom: 0%;
+
+}
+#specialkeyword{
+    margin-top: 2%;
+    margin-bottom: 2%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 90%;
+
+}
+#specialkeyword>div{
+    background-color: rgb(210, 207, 207);
+    
+}
+#specialkeyword>div p{
+    padding: 2px;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    color: gray;
+    
+}
+#fullName,#email,#AlernateNumber{
+    padding: 5px;
+    font-size: 18px;
+    width: 90%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+#AlernateNumber+p{
+    color: gray;
+    margin-top: 0%;
+}
+#CreateAccount{
+    width: 100%;
+    padding: 5px;
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: white;
+    background-color:  #ff3f6c;
+    border: none;
+    cursor: pointer;
+}
+#CreateAccount:hover{
+    background-color: #ff3f6c;
+}
+#GenderSelection{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: gray;
+}

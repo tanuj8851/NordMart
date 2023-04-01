@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            background-color: antiquewhite;
+        }
+        h1{
+            text-align: center;
+        }
+        input{
+            outline: none;
+            border: none;
+            border-bottom: 2px solid rgb(237, 4, 97);
+            margin-top: 50px;
+            font-size: 20px;
+        }
+        #inputAdmin{
+            display: flex;
+            /* border: 1px solid red; */
+            margin: auto;
+            width: 400px;
+            height: 200px;
+            justify-content: space-evenly;
+        }
+        #bor{
+            /* border: 1px solid black; */
+            box-shadow: rgba(255, 0, 174, 0.25) 0px 54px 55px, rgba(255, 2, 183, 0.12) 0px -12px 30px, rgba(255, 0, 136, 0.12) 0px 4px 6px, rgba(255, 0, 166, 0.17) 0px 12px 13px, rgba(255, 0, 144, 0.09) 0px -3px 5px;
+            padding: 80px;
+            border-radius: 50%;
+            margin-top: 60px;
+        }
+        img{
+            margin-top: 130px;
+        }
+        #inputAdmin>div{
+            display: flex;
+            flex-direction: column;
+        }
+        label{
+            margin-top: 50px;
+            font-size: 20px;
+        }
+        button{
+            display: block;
+            margin: auto;
+            padding: 15px 20px;
+            background-color: #ec3c71;
+            color: white;
+            font-weight: 700;
+            border-radius: 10px;
+            border: none;
+        }
+        #boss{
+            margin-top: 80px;
+            display: flex;
+            /* border: 1px solid red; */
+            justify-content: space-evenly;
+        }
+    </style>
+</head>
+<body>
+    <div id="boss"><div><img src="https://i.pinimg.com/564x/04/50/1a/04501ac3b8035e01ef7b0cdfeee0958d.jpg" alt=""></div>
+    <div id="bor">
+        
+        <h1>WELCOME ADMIN 👤</h1>
+        <div>
+            <div id="inputAdmin">
+                <div>
+                    <label for="">Username: </label>
+                    <label for="">Password: </label>
+                </div>
+                <div>
+                    <input id="username" type="text" name="" id="">
+                    <input id="password" type="password" name="" id="">
+                </div>
+            </div>
+            <a id="anch"><button id="btn">LOGIN</button></a>
+        </div>
+        
+    </div>
+</div>
+
+</body>
+<script>
+   let button=document.getElementById("btn")
+   let username=document.getElementById("username");
+   let password=document.getElementById("password");
+   let anch=document.getElementById("anch")
+   button.addEventListener("click",()=>{
+    
+    if((username.value=="Mrunali" || username.value=="Fardeen" || username.value=="Akshay" || username.value=="Mohd Sharique" || username.value=="Tanuj") && (password.value=="admin")){
+        alert(`Login Successful, welcome ${username.value}`)
+        anch.setAttribute("href","./adminPage.html")
+    }
+    else{
+        alert("Wrong Credential")
+    }
+   })
+    </script>
+</html>

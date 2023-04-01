@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FashMart Dashboard</title>
+    <script src="https://kit.fontawesome.com/0244637c96.js" crossorigin="anonymous"></script>
+    <style>
+        *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    overflow-x: hidden;
+}
+        .icon img{
+    margin-top: 15px;
+}
+.navigation{
+    position: fixed;
+    width: 300px;
+    height: 100%;
+    background: #ce6ba8c0;
+    transition: 0.5s;
+    overflow: hidden;
+}
+.navigation ul{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+
+}
+.navigation ul li{
+    position: relative;
+    width: 100%;
+    list-style: none;
+}
+.navigation ul li:hover{
+    background-color: #cd349a;
+    /* color: white; */
+    transition: 0.9s;
+    border-radius: 60px;
+}
+.navigation ul li:nth-child(1){
+    margin-bottom: 20px;
+}
+.navigation ul li:nth-child(1):hover{
+    background: transparent;
+}
+.navigation ul li a{
+    position: relative;
+    display: block;
+    width: 100%;
+    display: flex;
+    text-decoration: none;
+    color: black;
+}
+.navigation ul li a .icon{
+    position: relative;
+    display: block;
+    min-width: 60px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+}
+.navigation ul li a{
+    font-size: 20px;
+}
+.navigation ul li a .title{
+    position: relative;
+    display: block;
+    padding: 0 10px;
+    height: 60px;
+    line-height: 60px;
+    white-space: nowrap;
+}
+
+#container{
+    width:1200px;
+    /* height: 100vh; */
+    display: block;
+    /* padding-top: 50px; */
+    /* border: 1px solid red; */
+    margin-left: 400px;
+}
+th{
+   padding: 20px 90px; 
+   font-size: 18px;
+}
+#nav{
+    background-color: #dbb1da;
+    position: sticky;
+    top: 0;
+    padding: 20px 0px 
+}
+#nav p{
+    cursor: pointer;
+}
+td:nth-child(1){
+    padding: 20px 0px;
+}
+td{
+    text-align: center;
+    padding: 20px 64px;
+    font-size: 17px;
+}
+
+
+    </style>
+</head>
+<body>
+    <div class="navigation">
+        <ul>
+            <li>
+                <a href="../index.html">
+                    <span class="icon"><img id="AD" style="margin-top: 12px;" src="../logo/Fash-Mart.png" height="40px" alt=""></span>
+                    <span class="title"><h2>FashMart</h2></span>
+                </a>
+            </li>
+            <li>
+                <a href="./adminPage.html">
+                    <span class="icon"><i class="fa-solid fa-database"></i></span>
+                    <span class="title">Dashboard</span>
+                </a>
+            </li>
+            <li>
+                <a href="./products.html">
+                    <span class="icon"><i class="fa-solid fa-people-group"></i></span>
+                    <span class="title">Admin</span>
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <span class="icon"><i class="fa-solid fa-pen-to-square"></i></span>
+                    <span class="title">Edit Product (3P, D)</span>
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <span class="icon"><i class="fa-sharp fa-solid fa-box"></i></span>
+                    <span class="title">Total Product</span>
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <span class="icon"><i class="fa-solid fa-right-from-bracket"></i></span>
+                    <span class="title">LogOut</span>
+                </a>
+            </li>
+        </ul>
+    </div>
+    <div>
+        <div id="container">
+            <div id="nav" style="display: flex;justify-content: space-evenly;margin-bottom: 50px;font-size: 20px;">
+                <div><p id="men">Men</p></div>
+                <div><p id="women">Women</p></div>
+                <div><p id="kid">Kids</p></div>
+            </div>
+            <div style="display: flex;justify-content: space-evenly;font-size: 20px;background-color: pink; padding: 20px;">
+                <div><p id="name">Name</p></div>
+                <div><p style="margin-left: 70px;" id="desc">Description</p></div>
+                <div><p style="margin-left: 120px;" id="brand">Brand</p></div>
+                <div><p style="padding-left: 120px;" id="price">Price</p></div>
+                <div><p id="rating">Rating</p></div>
+            </div>
+            <table border="1" cellspacing="0">
+                <tr>
+                    <th>Name</th>
+                    <th>Description</th>
+                    <th>Brand</th>
+                    <th>Rupees</th>
+                    <th>Rating</th>
+                </tr>
+                <div id="divbox" style="width: 1200px;"></div>
+                <!-- https://63c7a5645c0760f69abb1675.mockapi.io/MensFashion -->
+            </table>
+        </div>
+    </div>
+<script src="../script/adminPage.js"></script>
+
+    
+</body>
+</html>

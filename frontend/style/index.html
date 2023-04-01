@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Shopping for Women,Men, Kids Fashion & Lifestyle - Myntra</title>
+    <script src="https://kit.fontawesome.com/0244637c96.js" crossorigin="anonymous"></script>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        nav{
+            position: sticky;
+            top: 0px;
+            width: 100%px;
+            background-color: rgb(255, 255, 255);
+            height: 90px;
+            box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        }
+        #anchors{
+            display: flex;
+            justify-content: space-between;
+            width: 650px;
+            /* border: 1px solid red; */
+            align-items: center;
+
+        }
+        #anchors>div>a{
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-weight: 100;
+            text-decoration: none;
+            color: black;
+        }
+        #inp{
+            height:40px ;
+            width: 300px;
+            border: 0px;
+            background-color: rgb(235, 238, 240);
+            outline: none;
+            font-size: 15px;
+        }
+        .fa-search{
+            color: rgb(181, 169, 169);
+            padding: 10px;
+            align-self: center;
+            margin-top: 5px;
+        }
+
+    </style>
+</head>
+<body>
+    <nav style="display: flex;">
+        <a style="align-self: center;" href="./index.html">
+            <img style="width: 150px;" src="https://www.freepnglogos.com/uploads/logo-myntra-png/myntra-logo-m-png-3.png" alt="">
+        </a>
+        <div id="anchors">
+            <div><a href="">MEN</a></div>
+            <div><a href="">WOMEN</a></div>
+            <div><a href="">KIDS</a></div>
+            <div><a href="">HOME & LIVING</a></div>
+            <div><a href="">BEAUTY</a></div>
+            <div><a href="">STUDIO</a></div>
+        </div>
+        <div style="display: block;align-self: center;height: 45px;width: 370px;margin-left: 150px;background-color: rgb(235, 238, 240);border-radius: 4px;">
+            <i class="fa fa-search" aria-hidden="true"></i>
+            <input id="inp" type="text" placeholder="Search for products, brands and more">
+        </div>
+       
+        <div style="display: flex;align-items: center;width: 330px;margin-left: 20px;justify-content: space-between;text-align: center;">
+            <div><button style="align-self: center; padding: 12px;font-size: 15px;background-color: white;border-radius: 4px;border: 1px solid black;">Update</button>
+            </div>
+    
+            <div>
+                <i class="fa fa-user-o" aria-hidden="true"></i>
+                <p>Profile</p>
+            </div>
+            <div>
+                <i class="fa fa-heart-o" aria-hidden="true"></i>
+                <p>Wishlist</p>
+            </div>
+            <div>
+                <i class="fa fa-shopping-bag" aria-hidden="true"></i>
+                <p>Bag</p>
+            </div>
+        </div>
+    </nav>
+</body>
+</html>
