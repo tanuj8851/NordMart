@@ -2,8 +2,11 @@
 
 
 Construct week project NXM101 Batch Project starts on 27-03-2023 and completed on 02-04-2023
+
 Project Code =>  -confused-volcano-6333 Website Name => NordMart.com
+
 Project type => E-commerce
+
 Collaborative / Solo => Solo
 
 
