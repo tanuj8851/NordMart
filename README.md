@@ -3,18 +3,26 @@
 
 Construct week project NXM101 Batch Project starts on 27-03-2023 and completed on 02-04-2023
 
-Project Code =>  -confused-volcano-6333 Website Name => NordMart.com
+Project Name => NordMart.com
 
 Project type => E-commerce
 
 Collaborative / Solo => Solo
 
 
+TeckStacks used:-
+1.HTML
+2.CSS
+3.Javascript
+4.Express
+5.MongoDB
+6.Mongoose
 
 
 
 
-Clone of .com (Project) This is the project of cloning the website NordStorm.com an American eCommerce website from where we can buy clothes and accesories for newborn Baby, Babies, kids. This project made under the guidance of Masai school during construct week This is a solo project. We used HTML CSS Javascript and some external CSS for completing this project. It consist of various functionalities :- JSON server Login Signup, Fetch, Filter and sorting Dom manupulation etc.
+
+Clone of NordStorm.com (Project) This is the project of cloning the website NordStorm.com an American eCommerce website from where we can buy clothes and accesories for newborn Baby, Babies, kids. This project made under the guidance of Masai school during construct week This is a solo project. We used HTML CSS Javascript and some external CSS for completing this project. It consist of various functionalities :- JSON server Login Signup, Fetch, Filter and sorting Dom manupulation etc.
 
 
 NordMart.com
