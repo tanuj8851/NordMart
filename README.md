@@ -19,6 +19,11 @@ Clone of .com (Project) This is the project of cloning the website NordStorm.com
 
 NordMart.com
 
+Project Logo:-
+
+![Untitled design](https://user-images.githubusercontent.com/106135710/229444522-05b8667f-d009-46a1-8cb5-82ab41a88add.png)
+
+
 Landing Page:- 
 
 ![99](https://user-images.githubusercontent.com/106135710/229442122-3ba1f44d-740e-4d13-a68d-6d3b4b7d27f6.png)
