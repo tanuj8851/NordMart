@@ -45,6 +45,12 @@ Admin access page:-
 ![96](https://user-images.githubusercontent.com/106135710/229442965-990f19e6-6136-423e-8ed3-e8a5df0d3735.png)
 
 
+Login/Sign Up Page:-
+
+![95](https://user-images.githubusercontent.com/106135710/229444928-391c8db2-7524-4853-b9a0-7f7e32040a3b.png)
+
+
+
 About US :- Storm's, Inc. is a major American designer and marketer of children's apparel. It was founded in 1865 by William Storm.
 Storm's sells its products through its own Storm's and OshKosh B'gosh retail stores, its website, and in other retail outlets such as department stores. As of 2019, it was reported that Storm's accounted for around one-quarter of all sales both for the children's sleepwear market, and for clothes for the newborn to two-year-old age group.
 William Storm was the founder of William Storm Company in 1865 in Needham, Massachusetts. William Storm (1830–1918) was born in Alfreton, Derbyshire, England. He arrived in America on January 28, 1857. He married Martha Lee (1842-1873). They had four children: William Henry Storm (1864–1955), who served two terms in the U.S. House of Representatives (1915-1919) prior to being elected president of the William Storm Company in 1918; Mary Elizabeth Storm (1865-1961); John J. Storm (1867-1939); and Horace A. Storm (1869-1959). By the early 1960s, the William Storm Company manufactured at seven mills in Massachusetts and the South.
