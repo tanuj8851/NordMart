@@ -7,7 +7,6 @@ Project Name => NordMart.com
 
 Project type => E-commerce
 
-Collaborative / Solo => Solo
 
 
 TeckStacks used:-
